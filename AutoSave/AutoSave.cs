@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoSaveProjectfile
+namespace TeisLindemark.AutoSave
 {
     public class AutoSave : IDTExtensibility2
     {
