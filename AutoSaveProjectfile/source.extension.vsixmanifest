@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="AutoSaveProjectfile..7707c538-2587-43ab-b6bd-41a827f073f4" Version="0.1" Language="en-US" Publisher="Teis Lindemark" />
+    <DisplayName>Auto Save Projectfile</DisplayName>
+    <Description xml:space="preserve">Visual Studio extension that will save the project file when files are added, renamed or removed from the solution.</Description>
+    <License>licence.txt</License>
+    <GettingStartedGuide>gettingstarted.txt</GettingStartedGuide>
+    <ReleaseNotes>release.txt</ReleaseNotes>
+    <Icon>autosave.png</Icon>
+    <PreviewImage>autosave.png</PreviewImage>
+    <Tags>auto save project file</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" AssemblyName="|%CurrentProject%;AssemblyName|" />
+  </Assets>
+</PackageManifest>
